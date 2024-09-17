@@ -1,5 +1,4 @@
 const codes = document.querySelectorAll('.code');
-
 // Add event listeners to each input
 codes.forEach((code, index) => {
     code.addEventListener('input', (e) => {
