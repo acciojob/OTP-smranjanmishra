@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTP Verification</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+ 
 <body>
-    <div class="container">
-        <h2 id="verification_heading">OTP Verification</h2>
-        <p id="verification_subtext">Enter the 6-digit code sent to your phone</p>
-
-        <div class="code-container">
-            <input type="text" class="code" maxlength="1">
-            <input type="text" class="code" maxlength="1">
-            <input type="text" class="code" maxlength="1">
-            <input type="text" class="code" maxlength="1">
-            <input type="text" class="code" maxlength="1">
-            <input type="text" class="code" maxlength="1">
-        </div>
-    </div>
-    <script src="script.js"></script>
+	<div class="container">
+		<h2 id="verification_heading">Verify Your Account</h2>
+		<p id="verification_subtext">
+			We emailed you the six digit code to acciojob@email.com
+			Enter the code below to confirm your email address.
+		</p>
+		<div class="code-container">
+			<input type="number" class="code" id="code-1" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" id="code-2" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" id="code-3"placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" id="code-4"placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" id="code-5"placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" id="code-6"placeholder="0" min="0" max="9" required>
+		</div>
+		<small class="info">
+			This is design only. We didn't actually send you an email as we don't have your email, right?
+		</small>
+	</div>
+	<script src="script.js"></script>
 </body>
+ 
 </html>
